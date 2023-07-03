@@ -8,7 +8,7 @@ function Encabezado() {
 <nav>
   <ul>
     <li>
-      <img src="IMG/icon_eyelash.png" className="photo" alt="Logo" />
+      <img src={require('../imagenes/icon_eyelash.png')} className="photo" alt="Logo" />
     </li>
     <li className="photo_and_name_of_company">
       {" "}
