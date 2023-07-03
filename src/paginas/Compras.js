@@ -1,13 +1,21 @@
 import React from "react";
 import Encabezado from "../componentes/Encabezado";
+import Deslizable from "../componentes/Deslizable";
+import Texto from "../componentes/Texto";
+import Carrito from "../componentes/Carrito";
 
-function Compras(){
-    return(
+
+function Compras() {
+    return (
         <>
-        <Encabezado></Encabezado>
-        <div className="Container">
-            <h1>Bienvenidos a nuestro portal de compras</h1>
-        </div>
+            <Encabezado></Encabezado>
+            <Deslizable></Deslizable>
+            <Texto></Texto>
+            <h1 className="Exclamar">!Nuestros Anillos!</h1>
+            <Carrito></Carrito>
+            <div class="boton">
+                <a href="confir_compra.html">Comprar</a>
+            </div>
         </>
     );
 }

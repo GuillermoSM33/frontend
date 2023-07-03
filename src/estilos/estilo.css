@@ -6,10 +6,15 @@
   margin: auto;
 }
 
-.specific_body {
+body{
+    background-color: #D9D9D9;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*.specific_body {
   background-color: #D9D9D9;
   font-family: 'Poppins', sans-serif;
-}
+}*/
 
 .photo_and_name_of_company {
   padding-right: 25%;
