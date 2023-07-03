@@ -1,13 +1,12 @@
 import React from "react";
-import Encabezado from "../componentes/Encabezado";
+import Cuerpo2 from "../componentes/Cuerpo2"
+import Pie_de_pagina from "../componentes/Pie_de_pagina";
 
 function Nosotros(){
     return(
         <>
-        <Encabezado></Encabezado>
-        <div className="Container">
-            <h1>Conócenos</h1>
-        </div>
+        <Cuerpo2></Cuerpo2>
+        <Pie_de_pagina></Pie_de_pagina>
         </>
     );
 }

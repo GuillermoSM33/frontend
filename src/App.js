@@ -8,6 +8,7 @@ import Productos from './paginas/Productos';
 import Nosotros from './paginas/Nosotros';
 import Categorias from './paginas/Categorias';
 import Contactos from './paginas/Contactos';
+import Confirmacion from './paginas/Confirmacion';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Route path='/Nosotros' element={<Nosotros/>}></Route>
       <Route path='/Categorias' element={<Categorias/>}></Route>
       <Route path='/Contactos' element={<Contactos/>}></Route>
+      <Route path='/Confirmacion' element={<Confirmacion/>}></Route>
       </Routes>
     </BrowserRouter>
   );
